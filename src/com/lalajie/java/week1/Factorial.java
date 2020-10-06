@@ -11,9 +11,10 @@ import sun.applet.Main;
 public class Factorial {
     public static void main(String[] args) {
         int count = 1;
-        for (int i = 1; i <= 5; i++) {
+        int num = 5;
+        for (int i = 1; i <= num; i++) {
             count *= i;
         }
-        System.out.println("5的阶乘是"+count);
+        System.out.println("5的阶乘是 " + count);
     }
 }

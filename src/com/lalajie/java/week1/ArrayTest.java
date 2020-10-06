@@ -21,26 +21,21 @@ public class ArrayTest {
         System.out.println();
         System.out.print("排序：");
 
-        /**
-         * 对上面数排序
-         */
+         //对上面数排序
         Arrays.sort(a);
-        for(int j = 0;j<a.length;j++){
-            System.out.print(a[j] + " ");
+        for (int k : a) {
+            System.out.print(k + " ");
         }
 
-        /**
-         * 求出数组和
-         */
+         //求出数组和
         int j;
         for (j = 0;j<a.length;j++){
             sum = sum + a[j];
         }
         System.out.println();
         System.out.println("数组的和为： " + sum);
-        /**
-         * 求出最大值和最小值
-         */
+
+         //求出最大值和最小值
         int min=a[0];
         int max=a[0];
         for (int i = 1; i <a.length ; i++) {
@@ -50,7 +45,6 @@ public class ArrayTest {
             if (a[i]<min){
                 min=a[i];
             }
-
         }
         System.out.println();
         System.out.print("数组的最大值为:"+max);
