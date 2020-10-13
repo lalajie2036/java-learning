@@ -49,7 +49,5 @@ public class ArrayTest {
         System.out.println();
         System.out.print("数组的最大值为:"+max);
         System.out.print("\n数组的最小值为:"+min);
-
     }
-
 }
