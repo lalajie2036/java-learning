@@ -10,7 +10,7 @@
         <module name="java-basic-learning" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="java-basic-learning" target="8" />
     </bytecodeTargetLevel>
   </component>
