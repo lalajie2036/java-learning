@@ -38,6 +38,7 @@ public class Test2 {
         for (Entry<String, String> entry : entrySet) {
             if ("JDBC".equals(entry.getValue())) {
                 System.out.println(entry.getKey());
+                System.out.println();
             }
         }
     }
