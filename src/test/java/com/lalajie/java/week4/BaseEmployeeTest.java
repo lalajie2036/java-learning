@@ -14,5 +14,6 @@ public class BaseEmployeeTest {
     public void getSalary() {
         BaseEmployee be = new MarketEmployee("user");
         assertEquals(3000,be.getSalary());
+
     }
 }
